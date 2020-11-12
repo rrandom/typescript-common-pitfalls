@@ -1,0 +1,2 @@
+#!/bin/bash
+tsc $1 $2 --lib es2017,dom && node ${1%%.ts}
